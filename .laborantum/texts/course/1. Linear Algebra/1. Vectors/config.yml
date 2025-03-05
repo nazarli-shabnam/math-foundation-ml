@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-order:
-  - 1. Vectors as Arrows
-  - 2. Sum of Vectors Quiz
-  - 3. Sum of Vectors Quiz 2
-  - 4. Scaling Quiz
-  - 6. Scalar Product Quiz
-  - 7. Geometric Meaning Quiz
-  - 9. Numpy Practice
-  - 10. Vectors Practice
-=======
 order:
   - 1. Vectors as Arrows
   - 2. Sum of Vectors Quiz
@@ -19,4 +8,4 @@ order:
   - 8. Orthonormalisation Quiz
   - 9. Numpy Practice
   - 10. Vectors Practice
->>>>>>> upstream/main
+
