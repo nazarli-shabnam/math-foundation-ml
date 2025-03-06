@@ -3,29 +3,29 @@
         {
             "path": "/texts/course/config.yml",
             "status": {
-                "total": 31,
-                "correct": 6
+                "total": 50,
+                "correct": 15
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/config.yml",
             "status": {
-                "total": 31,
-                "correct": 6
+                "total": 50,
+                "correct": 15
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/config.yml",
             "status": {
-                "total": 31,
-                "correct": 6
+                "total": 33,
+                "correct": 8
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/2. Matrices/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0
+                "total": 17,
+                "correct": 7
             }
         }
     ],
@@ -202,13 +202,29 @@
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/8. Orthonormalisation Quiz/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "total": 2,
+                "correct": 2,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/9. Numpy Practice/config.yml",
+            "status": {
+                "total": 15,
+                "correct": 0,
+                "testStatus": [],
+                "error": "[NbClientApp] Executing .laborantum/texts/course/1. Linear Algebra/1. Vectors/9. Numpy Practice/task.ipynb\n[NbClientApp] Executing notebook with kernel: container_env\nTraceback (most recent call last):\n  File \"/usr/local/bin/jupyter-execute\", line 8, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/application.py\", line 283, in launch_instance\n    super().launch_instance(argv=argv, **kwargs)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 1074, in launch_instance\n    app.initialize(argv)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 118, in inner\n    return method(app, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 161, in initialize\n    self.run_notebook(path)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 215, in run_notebook\n    client.execute()\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/utils/__init__.py\", line 165, in wrapped\n    return loop.run_until_complete(inner)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete\n    return future.result()\n           ^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 709, in async_execute\n    await self.async_execute_cell(\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 1062, in async_execute_cell\n    await self._check_raise_for_error(cell, cell_index, exec_reply)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 918, in _check_raise_for_error\n    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)\nnbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:\n------------------\nprint('x.reshape([2, 3]) :\\n', x.reshape([2, 3]))\nprint('x.reshape([3, 2]) :\\n', x.reshape([3, 2]))\n\nprint('x.reshape([2, -1]) :\\n', x.reshape([2, -1]))\nprint('x.reshape([3, -1]) :\\n', x.reshape([3, -1]))\n------------------\n\n\n\u001b[31m---------------------------------------------------------------------------\u001b[39m\n\u001b[31mValueError\u001b[39m                                Traceback (most recent call last)\n\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[11]\u001b[39m\u001b[32m, line 1\u001b[39m\n\u001b[32m----> \u001b[39m\u001b[32m1\u001b[39m \u001b[38;5;28mprint\u001b[39m(\u001b[33m'\u001b[39m\u001b[33mx.reshape([2, 3]) :\u001b[39m\u001b[38;5;130;01m\\n\u001b[39;00m\u001b[33m'\u001b[39m, \u001b[43mx\u001b[49m\u001b[43m.\u001b[49m\u001b[43mreshape\u001b[49m\u001b[43m(\u001b[49m\u001b[43m[\u001b[49m\u001b[32;43m2\u001b[39;49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[32;43m3\u001b[39;49m\u001b[43m]\u001b[49m\u001b[43m)\u001b[49m)\n\u001b[32m      2\u001b[39m \u001b[38;5;28mprint\u001b[39m(\u001b[33m'\u001b[39m\u001b[33mx.reshape([3, 2]) :\u001b[39m\u001b[38;5;130;01m\\n\u001b[39;00m\u001b[33m'\u001b[39m, x.reshape([\u001b[32m3\u001b[39m, \u001b[32m2\u001b[39m]))\n\u001b[32m      4\u001b[39m \u001b[38;5;28mprint\u001b[39m(\u001b[33m'\u001b[39m\u001b[33mx.reshape([2, -1]) :\u001b[39m\u001b[38;5;130;01m\\n\u001b[39;00m\u001b[33m'\u001b[39m, x.reshape([\u001b[32m2\u001b[39m, -\u001b[32m1\u001b[39m]))\n\n\u001b[31mValueError\u001b[39m: cannot reshape array of size 9 into shape (2,3)\n\n"
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/1. Vectors/10. Vectors Practice/config.yml",
             "status": {
                 "total": 1,
                 "correct": 0,
@@ -216,7 +232,95 @@
             }
         },
         {
-            "path": "/texts/course/1. Linear Algebra/1. Vectors/10. Vectors Practice/config.yml",
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/1. Matrices/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    3,
+                    8,
+                    5,
+                    1,
+                    7
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/2. Matrix Product/config.yml",
+            "status": {
+                "total": 2,
+                "correct": 2,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/3. Matrix Product/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    1,
+                    4,
+                    10,
+                    6,
+                    11,
+                    7,
+                    2,
+                    5
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/4. Functions as Transforms/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    5,
+                    6,
+                    1,
+                    8
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/5. Linear Transforms/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    8,
+                    4,
+                    10,
+                    6,
+                    11
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/6. Invertible Matrices/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    10,
+                    12,
+                    0,
+                    8,
+                    4,
+                    13,
+                    6,
+                    9
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/1. Linear Algebra/2. Matrices/7. Matrices Practice/config.yml",
             "status": {
                 "total": 1,
                 "correct": 0,
