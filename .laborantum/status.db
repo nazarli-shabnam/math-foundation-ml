@@ -4,21 +4,21 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 50,
-                "correct": 24.740000000000002
+                "correct": 39.74
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/config.yml",
             "status": {
                 "total": 50,
-                "correct": 24.740000000000002
+                "correct": 39.74
             }
         },
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/config.yml",
             "status": {
                 "total": 33,
-                "correct": 8
+                "correct": 23
             }
         },
         {
@@ -217,68 +217,199 @@
         {
             "path": "/texts/course/1. Linear Algebra/1. Vectors/9. Numpy Practice/config.yml",
             "status": {
+                "correct": 15,
                 "total": 15,
-                "correct": 0,
-                "testStatus": [],
-                "error": [
-                    "[NbClientApp] Executing .laborantum/texts/course/1. Linear Algebra/1. Vectors/9. Numpy Practice/task.ipynb",
-                    "[NbClientApp] Executing notebook with kernel: container_env",
-                    "Traceback (most recent call last):",
-                    "  File \"/usr/local/bin/jupyter-execute\", line 8, in <module>",
-                    "    sys.exit(main())",
-                    "             ^^^^^^",
-                    "  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/application.py\", line 283, in launch_instance",
-                    "    super().launch_instance(argv=argv, **kwargs)",
-                    "  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 1074, in launch_instance",
-                    "    app.initialize(argv)",
-                    "  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 118, in inner",
-                    "    return method(app, *args, **kwargs)",
-                    "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-                    "  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 161, in initialize",
-                    "    self.run_notebook(path)",
-                    "  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 215, in run_notebook",
-                    "    client.execute()",
-                    "  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/utils/__init__.py\", line 165, in wrapped",
-                    "    return loop.run_until_complete(inner)",
-                    "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-                    "  File \"/usr/local/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete",
-                    "    return future.result()",
-                    "           ^^^^^^^^^^^^^^^",
-                    "  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 709, in async_execute",
-                    "    await self.async_execute_cell(",
-                    "  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 1062, in async_execute_cell",
-                    "    await self._check_raise_for_error(cell, cell_index, exec_reply)",
-                    "  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 918, in _check_raise_for_error",
-                    "    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)",
-                    "nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:",
-                    "------------------",
-                    "",
-                    "answer['expression'] = []",
-                    "for vector in answer['vectors']:",
-                    "    vector = vector.astype('float64')",
-                    "    ",
-                    "    # vector[vector == 0] = np.nan",
-                    "    if (vector<=0):",
-                    "        continue",
-                    "    ",
-                    "    result = (vector**2 + 2**vector) / vector**3",
-                    "    answer['expression'].append(result)",
-                    "",
-                    "------------------",
-                    "",
-                    "",
-                    "\u001b[31m---------------------------------------------------------------------------\u001b[39m",
-                    "\u001b[31mValueError\u001b[39m                                Traceback (most recent call last)",
-                    "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[20]\u001b[39m\u001b[32m, line 6\u001b[39m",
-                    "\u001b[32m      3\u001b[39m vector = vector.astype(\u001b[33m'\u001b[39m\u001b[33mfloat64\u001b[39m\u001b[33m'\u001b[39m)",
-                    "\u001b[32m      5\u001b[39m \u001b[38;5;66;03m# vector[vector == 0] = np.nan\u001b[39;00m",
-                    "\u001b[32m----> \u001b[39m\u001b[32m6\u001b[39m \u001b[38;5;28;01mif\u001b[39;00m (vector<=\u001b[32m0\u001b[39m):",
-                    "\u001b[32m      7\u001b[39m     \u001b[38;5;28;01mcontinue\u001b[39;00m",
-                    "\u001b[32m      9\u001b[39m result = (vector**\u001b[32m2\u001b[39m + \u001b[32m2\u001b[39m**vector) / vector**\u001b[32m3\u001b[39m",
-                    "",
-                    "\u001b[31mValueError\u001b[39m: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()",
-                    "",
-                    ""
+                "testStatus": [
+                    {
+                        "name": "root -> vectors -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> vectors -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> vectors -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> vectors -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> slices -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> slices -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> slices -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> slices -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> slices -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> slices -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> deep_copy -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> shapes -> 0 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> shapes -> 1 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> shapes -> 2 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> shapes -> 3 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> reshaped -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> sliced_reshaped -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> sliced_reshaped -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> sliced_reshaped -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> sliced_reshaped -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> bool -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> bool -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> bool -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> bool -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lovely -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lovely -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lovely -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> lovely -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    }
                 ]
             }
         },
@@ -288,7 +419,7 @@
                 "total": 10,
                 "correct": 0,
                 "testStatus": [],
-                "error": "[NbClientApp] Executing .laborantum/texts/course/1. Linear Algebra/1. Vectors/10. Vectors Practice/task.ipynb\n[NbClientApp] ERROR | Notebook JSON is invalid: Additional properties are not allowed ('outputs' was unexpected)\n\nFailed validating 'additionalProperties' in markdown_cell:\n\nOn instance['cells'][0]:\n{'cell_type': 'markdown',\n 'metadata': {},\n 'outputs': ['...0 outputs...'],\n 'source': '# Vectors Practice'}\n[NbClientApp] Executing notebook with kernel: python3\nTraceback (most recent call last):\n  File \"/usr/local/bin/jupyter-execute\", line 8, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/application.py\", line 283, in launch_instance\n    super().launch_instance(argv=argv, **kwargs)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 1074, in launch_instance\n    app.initialize(argv)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 118, in inner\n    return method(app, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 161, in initialize\n    self.run_notebook(path)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 215, in run_notebook\n    client.execute()\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/utils/__init__.py\", line 165, in wrapped\n    return loop.run_until_complete(inner)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete\n    return future.result()\n           ^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 709, in async_execute\n    await self.async_execute_cell(\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 1062, in async_execute_cell\n    await self._check_raise_for_error(cell, cell_index, exec_reply)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 918, in _check_raise_for_error\n    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)\nnbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:\n------------------\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nplt.figure(figsize=(10, 10))\nax = plt.gca()\nX = inputs[0]['X']\nvecs = np.concatenate([np.zeros_like(X), X.T], axis=1)\nX, Y, U, V = zip(*vecs)\nax.quiver(X, Y, U, V, angles='xy', scale_units='xy', scale=1, color = 'red')\n\nX = answers['directions'][0] * 2\nnorms = np.concatenate([np.zeros_like(X), X.T], axis=1)\nX, Y, U, V = zip(*norms)\nax.quiver(X, Y, U, V, angles='xy', scale_units='xy', scale=1, color = 'blue')\nax.set_xlim([-10, 10])\nax.set_ylim([-10, 10])\nplt.draw()\nplt.grid()\nplt.legend(['original', 'normalized'])\nplt.show()\n\n------------------\n\n\n\u001b[31m---------------------------------------------------------------------------\u001b[39m\n\u001b[31mTypeError\u001b[39m                                 Traceback (most recent call last)\n\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[8]\u001b[39m\u001b[32m, line 11\u001b[39m\n\u001b[32m      8\u001b[39m X, Y, U, V = \u001b[38;5;28mzip\u001b[39m(*vecs)\n\u001b[32m      9\u001b[39m ax.quiver(X, Y, U, V, angles=\u001b[33m'\u001b[39m\u001b[33mxy\u001b[39m\u001b[33m'\u001b[39m, scale_units=\u001b[33m'\u001b[39m\u001b[33mxy\u001b[39m\u001b[33m'\u001b[39m, scale=\u001b[32m1\u001b[39m, color = \u001b[33m'\u001b[39m\u001b[33mred\u001b[39m\u001b[33m'\u001b[39m)\n\u001b[32m---> \u001b[39m\u001b[32m11\u001b[39m X = \u001b[43manswers\u001b[49m\u001b[43m[\u001b[49m\u001b[33;43m'\u001b[39;49m\u001b[33;43mdirections\u001b[39;49m\u001b[33;43m'\u001b[39;49m\u001b[43m]\u001b[49m\u001b[43m[\u001b[49m\u001b[32;43m0\u001b[39;49m\u001b[43m]\u001b[49m\u001b[43m \u001b[49m\u001b[43m*\u001b[49m\u001b[43m \u001b[49m\u001b[32;43m2\u001b[39;49m\n\u001b[32m     12\u001b[39m norms = np.concatenate([np.zeros_like(X), X.T], axis=\u001b[32m1\u001b[39m)\n\u001b[32m     13\u001b[39m X, Y, U, V = \u001b[38;5;28mzip\u001b[39m(*norms)\n\n\u001b[31mTypeError\u001b[39m: unsupported operand type(s) for *: 'NoneType' and 'int'\n\n"
+                "error": "[NbClientApp] Executing .laborantum/texts/course/1. Linear Algebra/1. Vectors/10. Vectors Practice/task.ipynb\n[NbClientApp] Executing notebook with kernel: container_env\nTraceback (most recent call last):\n  File \"/usr/local/bin/jupyter-execute\", line 8, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/application.py\", line 283, in launch_instance\n    super().launch_instance(argv=argv, **kwargs)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 1074, in launch_instance\n    app.initialize(argv)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 118, in inner\n    return method(app, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 161, in initialize\n    self.run_notebook(path)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 215, in run_notebook\n    client.execute()\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/utils/__init__.py\", line 165, in wrapped\n    return loop.run_until_complete(inner)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete\n    return future.result()\n           ^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 709, in async_execute\n    await self.async_execute_cell(\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 1062, in async_execute_cell\n    await self._check_raise_for_error(cell, cell_index, exec_reply)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 918, in _check_raise_for_error\n    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)\nnbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:\n------------------\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nplt.figure(figsize=(10, 10))\nax = plt.gca()\nX = inputs[0]['X']\nvecs = np.concatenate([np.zeros_like(X), X.T], axis=1)\nX, Y, U, V = zip(*vecs)\nax.quiver(X, Y, U, V, angles='xy', scale_units='xy', scale=1, color = 'red')\n\nX = answers['directions'][0] * 2\nnorms = np.concatenate([np.zeros_like(X), X.T], axis=1)\nX, Y, U, V = zip(*norms)\nax.quiver(X, Y, U, V, angles='xy', scale_units='xy', scale=1, color = 'blue')\nax.set_xlim([-10, 10])\nax.set_ylim([-10, 10])\nplt.draw()\nplt.grid()\nplt.legend(['original', 'normalized'])\nplt.show()\n\n------------------\n\n\n\u001b[31m---------------------------------------------------------------------------\u001b[39m\n\u001b[31mTypeError\u001b[39m                                 Traceback (most recent call last)\n\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[8]\u001b[39m\u001b[32m, line 11\u001b[39m\n\u001b[32m      8\u001b[39m X, Y, U, V = \u001b[38;5;28mzip\u001b[39m(*vecs)\n\u001b[32m      9\u001b[39m ax.quiver(X, Y, U, V, angles=\u001b[33m'\u001b[39m\u001b[33mxy\u001b[39m\u001b[33m'\u001b[39m, scale_units=\u001b[33m'\u001b[39m\u001b[33mxy\u001b[39m\u001b[33m'\u001b[39m, scale=\u001b[32m1\u001b[39m, color = \u001b[33m'\u001b[39m\u001b[33mred\u001b[39m\u001b[33m'\u001b[39m)\n\u001b[32m---> \u001b[39m\u001b[32m11\u001b[39m X = \u001b[43manswers\u001b[49m\u001b[43m[\u001b[49m\u001b[33;43m'\u001b[39;49m\u001b[33;43mdirections\u001b[39;49m\u001b[33;43m'\u001b[39;49m\u001b[43m]\u001b[49m\u001b[43m[\u001b[49m\u001b[32;43m0\u001b[39;49m\u001b[43m]\u001b[49m\u001b[43m \u001b[49m\u001b[43m*\u001b[49m\u001b[43m \u001b[49m\u001b[32;43m2\u001b[39;49m\n\u001b[32m     12\u001b[39m norms = np.concatenate([np.zeros_like(X), X.T], axis=\u001b[32m1\u001b[39m)\n\u001b[32m     13\u001b[39m X, Y, U, V = \u001b[38;5;28mzip\u001b[39m(*norms)\n\n\u001b[31mTypeError\u001b[39m: unsupported operand type(s) for *: 'NoneType' and 'int'\n\n"
             }
         },
         {
