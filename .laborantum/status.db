@@ -4,6 +4,7 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 98,
+
                 "correct": 39.74
             }
         },
