@@ -1,3 +1,4 @@
 {
-    "laborantum.processStreamEncoding": "utf-8"
+  "laborantum.processStreamEncoding": "utf-8",
+  "laborantum.dockerLaunchMode": "docker"
 }
