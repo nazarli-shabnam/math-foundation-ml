@@ -3,7 +3,7 @@
         {
             "path": "/texts/course/config.yml",
             "status": {
-                "total": 50,
+                "total": 98,
                 "correct": 39.74
             }
         },
@@ -26,6 +26,27 @@
             "status": {
                 "total": 17,
                 "correct": 16.740000000000002
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/config.yml",
+            "status": {
+                "total": 48,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/config.yml",
+            "status": {
+                "total": 48,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/2. Integrals/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0
             }
         }
     ],
@@ -5517,6 +5538,70 @@
                         "status": "OK"
                     }
                 ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/1. Derivatives Table/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/2. Deriving Derivatives lvl 1/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/3. Deriving Derivatives lvl 2/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/4. Deriving derivatives lvl 3/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/5. Deriving Derivatives lvl 4/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/9. Derivatives Practice/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/10. Gradient Descent Practice/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Calculus/1. Derivatives/11. Pytorch Tutorial/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
             }
         }
     ]
