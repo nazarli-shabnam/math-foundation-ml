@@ -4,7 +4,7 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 136,
-                "correct": 86.69925742574257
+                "correct": 87.94925742574257
             }
         },
         {
@@ -32,14 +32,14 @@
             "path": "/texts/course/2. Calculus/1. Derivatives/config.yml",
             "status": {
                 "total": 48,
-                "correct": 46.125
+                "correct": 47.375
             }
         },
         {
             "path": "/texts/course/2. Calculus/config.yml",
             "status": {
                 "total": 73,
-                "correct": 51.125
+                "correct": 52.375
             }
         },
         {
@@ -2729,7 +2729,7 @@
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/9. Derivatives Practice/config.yml",
             "status": {
-                "correct": 28.125,
+                "correct": 29.375,
                 "total": 30,
                 "testStatus": [
                     {
@@ -2799,8 +2799,8 @@
                     },
                     {
                         "name": "root -> 1D -> dd4",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 84609.73815735457"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> 1D -> d4_approx",
@@ -2834,13 +2834,13 @@
                     },
                     {
                         "name": "root -> 1D -> d6",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 23243715.639621027"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> 1D -> dd6",
                         "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 69730468.2348599"
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 7749236.261545726"
                     },
                     {
                         "name": "root -> 1D -> d6_approx",
