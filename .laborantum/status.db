@@ -4,7 +4,7 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 136,
-                "correct": 86.69925742574257
+                "correct": 87.94925742574257
             }
         },
         {
@@ -32,14 +32,14 @@
             "path": "/texts/course/2. Calculus/1. Derivatives/config.yml",
             "status": {
                 "total": 48,
-                "correct": 46.125
+                "correct": 47.375
             }
         },
         {
             "path": "/texts/course/2. Calculus/config.yml",
             "status": {
                 "total": 73,
-                "correct": 51.125
+                "correct": 52.375
             }
         },
         {
@@ -2729,7 +2729,7 @@
         {
             "path": "/texts/course/2. Calculus/1. Derivatives/9. Derivatives Practice/config.yml",
             "status": {
-                "correct": 28.125,
+                "correct": 29.375,
                 "total": 30,
                 "testStatus": [
                     {
@@ -2799,8 +2799,8 @@
                     },
                     {
                         "name": "root -> 1D -> dd4",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 84609.73815735457"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> 1D -> d4_approx",
@@ -2834,13 +2834,13 @@
                     },
                     {
                         "name": "root -> 1D -> d6",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 23243715.639621027"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> 1D -> dd6",
                         "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 69730468.2348599"
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 7749236.261545726"
                     },
                     {
                         "name": "root -> 1D -> d6_approx",
@@ -13102,71 +13102,7 @@
                 "total": 10,
                 "correct": 0,
                 "testStatus": [],
-                "error": [
-                    "[NbClientApp] Executing .laborantum/texts/course/3. Probability and Statistics/1. Discrete Probability Practice/task.ipynb",
-                    "[NbClientApp] ERROR | Notebook JSON is invalid: Additional properties are not allowed ('outputs' was unexpected)",
-                    "",
-                    "Failed validating 'additionalProperties' in markdown_cell:",
-                    "",
-                    "On instance['cells'][2]:",
-                    "{'cell_type': 'markdown',",
-                    " 'metadata': {},",
-                    " 'outputs': ['...0 outputs...'],",
-                    " 'source': '# Task\\n'",
-                    "           '\\n'",
-                    "           'In the input file, you are given the tables of statistic...'}",
-                    "[NbClientApp] Executing notebook with kernel: python3",
-                    "Traceback (most recent call last):",
-                    "  File \"/usr/local/bin/jupyter-execute\", line 8, in <module>",
-                    "    sys.exit(main())",
-                    "             ^^^^^^",
-                    "  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/application.py\", line 283, in launch_instance",
-                    "    super().launch_instance(argv=argv, **kwargs)",
-                    "  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 1074, in launch_instance",
-                    "    app.initialize(argv)",
-                    "  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 118, in inner",
-                    "    return method(app, *args, **kwargs)",
-                    "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-                    "  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 161, in initialize",
-                    "    self.run_notebook(path)",
-                    "  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 215, in run_notebook",
-                    "    client.execute()",
-                    "  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/utils/__init__.py\", line 165, in wrapped",
-                    "    return loop.run_until_complete(inner)",
-                    "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
-                    "  File \"/usr/local/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete",
-                    "    return future.result()",
-                    "           ^^^^^^^^^^^^^^^",
-                    "  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 709, in async_execute",
-                    "    await self.async_execute_cell(",
-                    "  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 1062, in async_execute_cell",
-                    "    await self._check_raise_for_error(cell, cell_index, exec_reply)",
-                    "  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 918, in _check_raise_for_error",
-                    "    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)",
-                    "nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:",
-                    "------------------",
-                    "inputs = json_tricks.load('.inputs.json')",
-                    "------------------",
-                    "",
-                    "",
-                    "\u001b[31m---------------------------------------------------------------------------\u001b[39m",
-                    "\u001b[31mFileNotFoundError\u001b[39m                         Traceback (most recent call last)",
-                    "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[2]\u001b[39m\u001b[32m, line 1\u001b[39m",
-                    "\u001b[32m----> \u001b[39m\u001b[32m1\u001b[39m inputs = \u001b[43mjson_tricks\u001b[49m\u001b[43m.\u001b[49m\u001b[43mload\u001b[49m\u001b[43m(\u001b[49m\u001b[33;43m'\u001b[39;49m\u001b[33;43m.inputs.json\u001b[39;49m\u001b[33;43m'\u001b[39;49m\u001b[43m)\u001b[49m",
-                    "",
-                    "\u001b[36mFile \u001b[39m\u001b[32m/usr/local/lib/python3.11/site-packages/json_tricks/nonp.py:284\u001b[39m, in \u001b[36mload\u001b[39m\u001b[34m(fp, preserve_order, ignore_comments, decompression, obj_pairs_hooks, extra_obj_pairs_hooks, cls_lookup_map, allow_duplicates, conv_str_byte, properties, **jsonkwargs)\u001b[39m",
-                    "\u001b[32m    282\u001b[39m \topen_binary = \u001b[38;5;28mbool\u001b[39m(decompression)",
-                    "\u001b[32m    283\u001b[39m \u001b[38;5;28;01melse\u001b[39;00m:",
-                    "\u001b[32m--> \u001b[39m\u001b[32m284\u001b[39m \t\u001b[38;5;28;01mwith\u001b[39;00m \u001b[38;5;28;43mopen\u001b[39;49m\u001b[43m(\u001b[49m\u001b[43mfp\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[33;43m'\u001b[39;49m\u001b[33;43mrb\u001b[39;49m\u001b[33;43m'\u001b[39;49m\u001b[43m)\u001b[49m \u001b[38;5;28;01mas\u001b[39;00m fh:",
-                    "\u001b[32m    285\u001b[39m \t\t\u001b[38;5;66;03m# This attempts to detect gzip mode; gzip should always\u001b[39;00m",
-                    "\u001b[32m    286\u001b[39m \t\t\u001b[38;5;66;03m# have this header, and text json can't have it.\u001b[39;00m",
-                    "\u001b[32m    287\u001b[39m \t\topen_binary = (fh.read(\u001b[32m2\u001b[39m) == \u001b[33mb\u001b[39m\u001b[33m'\u001b[39m\u001b[38;5;130;01m\\x1f\u001b[39;00m\u001b[38;5;130;01m\\x8b\u001b[39;00m\u001b[33m'\u001b[39m)",
-                    "\u001b[32m    288\u001b[39m \u001b[38;5;28;01mwith\u001b[39;00m \u001b[38;5;28mopen\u001b[39m(fp, \u001b[33m'\u001b[39m\u001b[33mrb\u001b[39m\u001b[33m'\u001b[39m \u001b[38;5;28;01mif\u001b[39;00m open_binary \u001b[38;5;28;01melse\u001b[39;00m \u001b[33m'\u001b[39m\u001b[33mr\u001b[39m\u001b[33m'\u001b[39m) \u001b[38;5;28;01mas\u001b[39;00m fh:",
-                    "",
-                    "\u001b[31mFileNotFoundError\u001b[39m: [Errno 2] No such file or directory: '.inputs.json'",
-                    "",
-                    ""
-                ]
+                "error": "[NbClientApp] Executing .laborantum/texts/course/3. Probability and Statistics/1. Discrete Probability Practice/task.ipynb\n[NbClientApp] Executing notebook with kernel: python3\nTraceback (most recent call last):\n  File \"/usr/local/bin/jupyter-execute\", line 8, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/application.py\", line 283, in launch_instance\n    super().launch_instance(argv=argv, **kwargs)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 1074, in launch_instance\n    app.initialize(argv)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 118, in inner\n    return method(app, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 161, in initialize\n    self.run_notebook(path)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 215, in run_notebook\n    client.execute()\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/utils/__init__.py\", line 165, in wrapped\n    return loop.run_until_complete(inner)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete\n    return future.result()\n           ^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 709, in async_execute\n    await self.async_execute_cell(\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 1062, in async_execute_cell\n    await self._check_raise_for_error(cell, cell_index, exec_reply)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 918, in _check_raise_for_error\n    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)\nnbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:\n------------------\ntwo_dice = answer[0]\n\nprint(two_dice['p'])\n\nx_plus_y_p = {}\nfor x_index in range(two_dice['p'].shape[0]):\n    for y_index in range(two_dice['p'].shape[1]):\n        if x_index + 1 + y_index + 1 not in x_plus_y_p:\n            x_plus_y_p[x_index + 1 + y_index + 1] = 0\n        x_plus_y_p[x_index + 1 + y_index + 1] += two_dice['p'][x_index, y_index]\n\n# print(x_plus_y_p)\n# x_plus_y_p = dict(sorted(x_plus_y_p))\n# print(x_plus_y_p)\nplt.plot(list(x_plus_y_p.keys()), list(x_plus_y_p.values()), 'ro')\nplt.axvline(x=two_dice['Ex_plus_y'], color='r', linestyle='--', linewidth=2)\nplt.axvline(x=two_dice['Ex_plus_y'] - np.sqrt(two_dice['Vx_plus_y']), color='b', linestyle='--', linewidth=2)\nplt.axvline(x=two_dice['Ex_plus_y'] + np.sqrt(two_dice['Vx_plus_y']), color='b', linestyle='--', linewidth=2)\nplt.legend(['distribution', 'expectance', 'deviation'])\n\n# Analyze the SECOND test case (non-independent dice)\nnon_indep_dice = answer[1]  # Second test case\n\n# Compute sum distribution for ξ + η\nx_plus_y_p_non_indep = {}\nfor x_index in range(non_indep_dice['p'].shape[0]):\n    for y_index in range(non_indep_dice['p'].shape[1]):\n        s = xvals[x_index] + yvals[y_index]  # Use actual x/y values\n        if s not in x_plus_y_p_non_indep:\n            x_plus_y_p_non_indep[s] = 0\n        x_plus_y_p_non_indep[s] += non_indep_dice['p'][x_index, y_index]\n\n# Plot both cases side-by-side\nplt.figure(figsize=(12, 4))\n\n# Subplot 1: Non-independent case\nplt.subplot(1, 2, 1)\nplt.plot(list(x_plus_y_p_non_indep.keys()), list(x_plus_y_p_non_indep.values()), 'go')\nplt.axvline(x=non_indep_dice['Ex_plus_y'], color='r', linestyle='--', linewidth=2)\nplt.axvline(x=non_indep_dice['Ex_plus_y'] - np.sqrt(non_indep_dice['Vx_plus_y']), color='b', linestyle='--', linewidth=2)\nplt.axvline(x=non_indep_dice['Ex_plus_y'] + np.sqrt(non_indep_dice['Vx_plus_y']), color='b', linestyle='--', linewidth=2)\nplt.title('Non-Independent Dice (Test Case 2)')\nplt.xlabel('Sum of ξ + η')\nplt.ylabel('Probability')\nplt.legend(['Distribution', 'Expectation', '±1 Std Dev'])\n\n# Subplot 2: Independent case (original plot)\nplt.subplot(1, 2, 2)\nplt.plot(list(x_plus_y_p.keys()), list(x_plus_y_p.values()), 'ro')\nplt.axvline(x=two_dice['Ex_plus_y'], color='r', linestyle='--', linewidth=2)\nplt.axvline(x=two_dice['Ex_plus_y'] - np.sqrt(two_dice['Vx_plus_y']), color='b', linestyle='--', linewidth=2)\nplt.axvline(x=two_dice['Ex_plus_y'] + np.sqrt(two_dice['Vx_plus_y']), color='b', linestyle='--', linewidth=2)\nplt.title('Independent Dice (Test Case 1)')\nplt.xlabel('Sum of ξ + η')\nplt.legend(['Distribution', 'Expectation', '±1 Std Dev'])\n\nplt.tight_layout()\nplt.show()\n\n# Print key differences\nprint(\"\\nKey Differences:\")\nprint(f\"{'Metric':<15} | {'Independent':<15} | {'Non-Independent':<15}\")\nprint(\"-\" * 45)\nprint(f\"{'Covariance':<15} | {two_dice['covxy']:15.4f} | {non_indep_dice['covxy']:15.4f}\")\nprint(f\"{'Independency':<15} | {str(two_dice['independency']):<15} | {str(non_indep_dice['independency']):<15}\")\nprint(f\"{'E[ξ+η]':<15} | {two_dice['Ex_plus_y']:15.4f} | {non_indep_dice['Ex_plus_y']:15.4f}\")\nprint(f\"{'Var(ξ+η)':<15} | {two_dice['Vx_plus_y']:15.4f} | {non_indep_dice['Vx_plus_y']:15.4f}\")\n------------------\n\n----- stdout -----\n[[0.02777778 0.02777778 0.02777778 0.02777778 0.02777778 0.02777778]\n [0.02777778 0.02777778 0.02777778 0.02777778 0.02777778 0.02777778]\n [0.02777778 0.02777778 0.02777778 0.02777778 0.02777778 0.02777778]\n [0.02777778 0.02777778 0.02777778 0.02777778 0.02777778 0.02777778]\n [0.02777778 0.02777778 0.02777778 0.02777778 0.02777778 0.02777778]\n [0.02777778 0.02777778 0.02777778 0.02777778 0.02777778 0.02777778]]\n------------------\n\n\u001b[31m---------------------------------------------------------------------------\u001b[39m\n\u001b[31mNameError\u001b[39m                                 Traceback (most recent call last)\n\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[5]\u001b[39m\u001b[32m, line 28\u001b[39m\n\u001b[32m     26\u001b[39m \u001b[38;5;28;01mfor\u001b[39;00m x_index \u001b[38;5;129;01min\u001b[39;00m \u001b[38;5;28mrange\u001b[39m(non_indep_dice[\u001b[33m'\u001b[39m\u001b[33mp\u001b[39m\u001b[33m'\u001b[39m].shape[\u001b[32m0\u001b[39m]):\n\u001b[32m     27\u001b[39m     \u001b[38;5;28;01mfor\u001b[39;00m y_index \u001b[38;5;129;01min\u001b[39;00m \u001b[38;5;28mrange\u001b[39m(non_indep_dice[\u001b[33m'\u001b[39m\u001b[33mp\u001b[39m\u001b[33m'\u001b[39m].shape[\u001b[32m1\u001b[39m]):\n\u001b[32m---> \u001b[39m\u001b[32m28\u001b[39m         s = \u001b[43mxvals\u001b[49m[x_index] + yvals[y_index]  \u001b[38;5;66;03m# Use actual x/y values\u001b[39;00m\n\u001b[32m     29\u001b[39m         \u001b[38;5;28;01mif\u001b[39;00m s \u001b[38;5;129;01mnot\u001b[39;00m \u001b[38;5;129;01min\u001b[39;00m x_plus_y_p_non_indep:\n\u001b[32m     30\u001b[39m             x_plus_y_p_non_indep[s] = \u001b[32m0\u001b[39m\n\n\u001b[31mNameError\u001b[39m: name 'xvals' is not defined\n\n"
             }
         },
         {
